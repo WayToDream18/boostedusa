@@ -531,6 +531,7 @@ a {
 		transform: translate(-100%);
 		margin: 0;
 		flex-wrap: nowrap;
+		padding-left: 0;
 
 		&.active {
 			transform: none;
@@ -585,6 +586,14 @@ a {
 	.footer__bottom {
 		text-align: center;
 		padding-block: 19px;
+	}
+	.swiper__img {
+		margin: 0 auto;
+		display: block;
+		margin-top: 20px;
+	}
+	.swiper__tire{
+		text-align: center;
 	}
 
 	.header__burger {
@@ -647,12 +656,12 @@ a {
 
 @media(max-width:420px) {
 	.offer__btn_left {
-		padding: 5px 15px;
+		padding: 5px 7px;
 		font-size: 12px;
 	}
 
 	.offer__btn_right {
-		padding: 5px 15px;
+		padding: 5px 7px;
 		font-size: 12px;
 	}
 
@@ -685,11 +694,7 @@ a {
 		margin-top: 20px;
 	}
 
-	.swiper__img {
-		margin: 0 auto;
-		display: block;
-		margin-top: 20px;
-	}
+
 
 	.footer__bottom {
 		flex-direction: column;

@@ -582,6 +582,7 @@ a {
     margin: 0;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
+    padding-left: 0;
   }
   .header__list.active {
     -webkit-transform: none;
@@ -632,6 +633,14 @@ a {
   .footer__bottom {
     text-align: center;
     padding-block: 19px;
+  }
+  .swiper__img {
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+  }
+  .swiper__tire {
+    text-align: center;
   }
   .header__burger {
     display: block;
@@ -695,11 +704,11 @@ a {
 }
 @media (max-width: 420px) {
   .offer__btn_left {
-    padding: 5px 15px;
+    padding: 5px 7px;
     font-size: 12px;
   }
   .offer__btn_right {
-    padding: 5px 15px;
+    padding: 5px 7px;
     font-size: 12px;
   }
   .offer__title {
@@ -722,11 +731,6 @@ a {
   }
   .swiper__tire {
     text-align: center;
-    display: block;
-    margin-top: 20px;
-  }
-  .swiper__img {
-    margin: 0 auto;
     display: block;
     margin-top: 20px;
   }
